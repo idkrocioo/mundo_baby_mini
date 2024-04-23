@@ -5,27 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio - Mundo Baby Mini</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
   </head>
   <body style="margin-bottom: 5px; background-color: #eceff1; color: #37474f; font-family: Arial, Helvetica, sans-serif;">
     <!-- Inicio de código -->
     <!-- Inicio de navbar -->
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffe6e6; color: #6c757d">
-        <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="index.html" style="color: #6c757d; text-decoration: none; font-weight: bold;">
-            <img src="imagenes/Mundo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top me-2">
-            Mundo Baby Mini
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" style="text-decoration: underline; color: #6c757d;" href="login.html">Iniciar Sesión</a>
-              <a class="nav-link" style="text-decoration: underline; color: #6c757d;" href="galeria.html">Galería</a>
-            </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffe6e6; color: #6c757d; text-decoration: none; font-weight: bold;">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html" style="color: #ff69b4;""+>
+          <img src="imagenes/Mundo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top me-2">
+          Mundo Baby Mini
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link btn btn-light" style="color: #6c757d;" href="login.html">Iniciar Sesión</a>
+            <a class="nav-link btn btn-light" style="color: #6c757d;" href="galeria.html">Galería</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- Término de navbar -->
 
     <!-- Inicio de carousel -->
@@ -59,38 +60,39 @@
 
     <!-- Inicio de formulario -->
     <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card border-primary" style="border-color: #6c757d !important;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bold" style="color: #6c757d; font-family: Arial, Helvetica, sans-serif;">INICIAR SESIÓN</h5>
-                        <form id="loginForm">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="inputPassword5" class="form-label" style="color: #6c757d; font-family: Arial, Helvetica, sans-serif;">Password</label>
-                                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,20}$" required>
-                                <div id="passwordHelpBlock" class="form-text" style="color: #333;">
-                                    Tu contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emojis.
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary" formaction="galeria.html" style="background-color: #6c757d; border-color: #6c757d;">LOGIN</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card border-0 shadow-lg" style="background-color: #f8f9fa; height: auto;">
+                <div class="card-body" style="padding: 30px;">
+                      <h5 class="card-title text-center fw-bold" style="color: #ff69b4; font-family: Arial, Helvetica, sans-serif;">INICIAR SESIÓN</h5>
+                      <form id="loginForm">
+                          <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label" style="color: #ff69b4; font-family: Arial, Helvetica, sans-serif;">Email</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="inputPassword5" class="form-label" style="color: #ff69b4; font-family: Arial, Helvetica, sans-serif;">Password</label>
+                              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,20}$" required>
+                              <div id="passwordHelpBlock" class="form-text" style="color: #333;">
+                                  Tu contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emojis.
+                              </div>
+                          </div>
+                          <div class="text-center">
+                              <button type="submit" class="btn btn-primary btn-lg" formaction="galeria.html" style="background-color: #ff69b4; border-color: #ff69b4;">LOGIN</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
     <!-- Término de formulario -->
 
+
     <!-- Inicio del footer -->
-    <footer style="background-color: #ffcdd2; padding: 10px; margin: 10px; width: 90%; max-width: 90%; margin: 0 auto;">
-      <nav style="text-align: center;">
-          <p style="font-size: 20px; font-weight: bold; margin: 0; color: #546e74; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Asignatura: Programación Front-End</p>
+    <footer class="text-center" style="background-color: #fff6f6; padding: 10px; margin: 10px auto; width: 90%; max-width: 90%; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      <nav>
+          <p style="font-size: 18px; font-weight: bold; margin: 0; color: #ff69b4; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Asignatura: Programación Front-End</p>
       </nav>
     </footer>
     <!-- Término del footer -->
